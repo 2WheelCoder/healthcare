@@ -1,10 +1,12 @@
 /* line 3, ../sass/style.scss */
 .container {
   border: 1px solid #000;
-  padding: 2em 0;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  margin: 2em auto;
 }
 
-/* line 8, ../sass/style.scss */
+/* line 10, ../sass/style.scss */
 .row {
   margin-left: 0;
   margin-right: 0;
