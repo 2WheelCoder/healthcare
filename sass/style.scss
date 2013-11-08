@@ -7,7 +7,16 @@
 	margin: 2em auto;
 }
 
-.row {
-	margin-left: 0;
-	margin-right: 0;
+.header {
+	border-bottom: 3px solid lighten(#000, 75%);
+	margin-bottom: 1em;
+}
+
+.plan {
+	border: 1px solid #000;	
+}
+
+.footer {
+	text-align: center;
+	margin-top: 2em;
 }

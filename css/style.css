@@ -7,7 +7,18 @@
 }
 
 /* line 10, ../sass/style.scss */
-.row {
-  margin-left: 0;
-  margin-right: 0;
+.header {
+  border-bottom: 3px solid #bfbfbf;
+  margin-bottom: 1em;
+}
+
+/* line 15, ../sass/style.scss */
+.plan {
+  border: 1px solid #000;
+}
+
+/* line 19, ../sass/style.scss */
+.footer {
+  text-align: center;
+  margin-top: 2em;
 }

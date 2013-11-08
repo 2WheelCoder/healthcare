@@ -4,12 +4,12 @@
 		<title>Healthcare.org Plans</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<!-- <link href="css/bootstrap-responsive.css" rel="stylesheet"> -->
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<div class="container">
-			<div class="row">
+			<div class="header row">
 				<div class="col-md-4">
 					<img src="img/logo.png" alt="">
 				</div>
@@ -18,15 +18,15 @@
 
 				<div class="col-md-4">
 					<ol class="list-inline">
-						<li><h4>Personal</h4></li>
-						<li><h4>Plans</h4></li>
-						<li><h4>Purchase</h4></li>
+						<li><h4 class="text-primary">1. Personal &rarr;</h4></li>
+						<li><h4>2. Plans &rarr;</h4></li>
+						<li><h4>3. Purchase</h4></li>
 					</ol>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="col-md-2"><h3>Filter</h3></div>
+				<div class="col-md-2"><strong class="text-info">Filter</strong></div>
 
 				<div class="col-md-3">
 					<label for="">Premium</label>
@@ -38,29 +38,14 @@
 					<input type="range">
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-4">
 					<label for="">Max Out-of-Pocket</label>
 					<input type="range">
 				</div>
-
-				<div class="col-md-1"></div>
 			</div>
 
 			<div class="row">
-				<div class="col-md-1">
-					
-				</div>
-				<div class="col-md-3">
-					<h2>Plan Name</h2>
-					<h3>Company</h3>
-
-					<ul class="list-unstyled">
-						<li>Premium: $235/mo</li>
-						<li>Deductible: $5000</li>
-						<li>Max Out-of-Pocket: $7000</li>
-					</ul>
-				</div>
-				<div class="col-md-3">
+				<div class="plan col-md-4">
 					<h2>Plan Name</h2>
 					<h3>Company</h3>
 
@@ -75,13 +60,24 @@
 					    <div class="panel-heading">
 					      <h4 class="panel-title">
 					        <a class="collapse-button" href="#">
-					          Collapsible Group Item #1
+					          General Details
 					        </a>
 					      </h4>
 					    </div>
 					    <div class="panel-collapse collapse">
 					      <div class="panel-body">
-					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
 					      </div>
 					    </div>
 					  </div>
@@ -115,7 +111,8 @@
 					  </div>
 					</div>
 				</div>
-				<div class="col-md-3">
+
+				<div class="plan col-md-4">
 					<h2>Plan Name</h2>
 					<h3>Company</h3>
 
@@ -124,11 +121,133 @@
 						<li>Deductible: $5000</li>
 						<li>Max Out-of-Pocket: $7000</li>
 					</ul>
+
+					<div class="panel-group" id="accordion">
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          General Details
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Collapsible Group Item #2
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Collapsible Group Item #3
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					      </div>
+					    </div>
+					  </div>
+					</div>
 				</div>
-				<div class="col-md-1"></div>
+
+				<div class="plan col-md-4">
+					<h2>Plan Name</h2>
+					<h3>Company</h3>
+
+					<ul class="list-unstyled">
+						<li>Premium: $235/mo</li>
+						<li>Deductible: $5000</li>
+						<li>Max Out-of-Pocket: $7000</li>
+					</ul>
+
+					<div class="panel-group" id="accordion">
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          General Details
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Collapsible Group Item #2
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Collapsible Group Item #3
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
 			</div>
 
-			<div class="row">
+			<div class="footer row">
 				<div class="col-md-2">
 					<button type="button" class="btn btn-primary">Save</button>
 				</div>
