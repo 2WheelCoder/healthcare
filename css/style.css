@@ -13,11 +13,16 @@
 }
 
 /* line 15, ../sass/style.scss */
+.filter {
+  font-size: 1.4em;
+}
+
+/* line 19, ../sass/style.scss */
 .plan {
   border: 1px solid #000;
 }
 
-/* line 19, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 .footer {
   text-align: center;
   margin-top: 2em;
