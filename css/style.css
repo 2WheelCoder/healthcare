@@ -1,4 +1,4 @@
-/* line 3, ../sass/style.scss */
+/* line 1, ../sass/style.scss */
 .container {
   border: 1px solid #000;
   padding-bottom: 2em;
@@ -6,24 +6,46 @@
   margin: 2em auto;
 }
 
-/* line 10, ../sass/style.scss */
+/* line 8, ../sass/style.scss */
 .header {
   border-bottom: 3px solid #bfbfbf;
   margin-bottom: 1em;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 .filter {
   font-size: 1.4em;
+  margin-bottom: 1em;
 }
 
-/* line 19, ../sass/style.scss */
+/* line 18, ../sass/style.scss */
 .plan {
   border: 1px solid #000;
 }
 
-/* line 23, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 .footer {
   text-align: center;
   margin-top: 2em;
+}
+
+/* line 27, ../sass/style.scss */
+.btn-arrow-left {
+  font-size: 2em;
+  left: -42px;
+  position: absolute;
+  top: 50%;
+}
+
+/* line 34, ../sass/style.scss */
+.btn-arrow-right {
+  font-size: 2em;
+  right: -42px;
+  position: absolute;
+  top: 50%;
+}
+
+/* line 41, ../sass/style.scss */
+.row {
+  position: relative;
 }
