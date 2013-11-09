@@ -1,0 +1,44 @@
+
+.container {
+	border: 1px solid #000;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	margin: 2em auto;
+}
+
+.header {
+	border-bottom: 3px solid lighten(#000, 75%);
+	margin-bottom: 1em;
+}
+
+.filter {
+	font-size: 1.4em;
+	margin-bottom: 1em;
+}
+
+.plan {
+	border: 1px solid #000;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 2em;
+}
+
+.btn-arrow-left {
+	font-size: 2em;
+	left: -42px;
+	position: absolute;
+	top: 50%;
+}
+
+.btn-arrow-right {
+	font-size: 2em;
+	right: -42px;
+	position: absolute;
+	top: 50%;
+}
+
+.row {
+	position: relative;
+}
