@@ -61,3 +61,46 @@ form {
 .more {
 	border-top: 5px solid #dadada;
 }
+
+.overlay {
+	background: rgba(0,0,0,0.8);
+	display: block;
+	height: 660px;
+	width: 100%;
+	position: absolute;
+	z-index: 9;
+}
+
+.help-overlay {
+	background-color: darken(#dadada, 45%);
+	border: 1px solid darken(#dadada, 25%);
+	color: #dadada;
+	display: inline-block;
+	padding: 1em;
+	position: absolute;
+	width: 200px;
+}
+
+.help-narrow {
+	left: 600px;
+	top: 25px;
+}
+
+.help-arrows {
+	top: 320px;
+	left: 20px;
+}
+
+.help-purchase {
+	bottom: 0px;
+	font-size: 1.5em;
+	// left: 385px;
+	right: 10px;
+	width: 400px;
+}
+
+.overlay .btn {
+	bottom: 20px;
+	position: absolute;
+	left: 540px;
+}

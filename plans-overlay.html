@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Healthcare.org Plans</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="header row">
+				<div class="col-md-4">
+					<img src="img/logo.png" alt="Healthcare.org">
+				</div>
+
+				<div class="col-md-4"></div>
+
+				<div class="col-md-4">
+					<ol class="list-inline">
+						<li><h4>1. Personal &rarr;</h4></li>
+						<li><h4 class="text-success">2. Plans &rarr;</h4></li>
+						<li><h4>3. Purchase</h4></li>
+					</ol>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-2 filter"><strong class="text-info">Filter</strong></div>
+
+				<div class="col-md-3">
+					<label for="">Premium</label>
+					<input type="text" id="amount1" style="border: 0; color: #f6931f; font-weight: bold;" />
+					<div id="slider-range1"></div>
+				</div>
+
+				<div class="col-md-3">
+					<label for="">Deductible</label>
+					<input type="text" id="amount2" style="border: 0; color: #f6931f; font-weight: bold;" />
+					<div id="slider-range2"></div>
+				</div>
+
+				<div class="col-md-4">
+					<label for="">Max Out-of-Pocket</label>
+					<input type="text" id="amount3" style="border: 0; color: #f6931f; font-weight: bold;" />
+					<div id="slider-range3"></div>
+				</div>
+			</div>
+
+			<div class="row">
+				<a href="plans.html" class="overlay">
+					<p class="help-overlay help-filter">Filter plans by selecting desired ranges for premiums, deductible and max out-of-pocket.</p>
+
+					<p class="help-overlay help-narrow">Narrow towards your ideal plan by using the X to remove unwanted plan.</p>
+
+					<p class="help-overlay help-arrows">Swipe or use arrows to view available plans.</p>
+
+					<p class="help-overlay help-purchase">To purchase a plan, narrow to  one plan and click Purchase Plan.</p>
+
+					<button class="btn btn-default">Continue</button>
+				</a>
+
+				<div class="plan col-md-4">
+					<button type="button" class="close" aria-hidden="true">&times;</button>
+					<h2>Bronze Plan</h2>
+					<h3>Kaiser Permanente</h3>
+
+					<ul class="list-unstyled">
+						<li>Premium: $235/mo</li>
+						<li>Deductible: $5000</li>
+						<li>Max Out-of-Pocket: $7000</li>
+					</ul>
+
+					<div class="panel-group">
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button general-details" href="#">
+					          General Details
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse general-details-collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Testing
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Dental and Vision
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          High Cost Services
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Maternity
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Medical Devices
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Emergency Care
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Prescription Drugs
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Habilitative and Rehabilitative Services
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Home Care and Hospice
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Facilities
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+
+				<div class="plan col-md-4">
+					<button type="button" class="close" aria-hidden="true">&times;</button>
+					<h2>Silver Plan</h2>
+					<h3>Kaiser Permanente</h3>
+
+					<ul class="list-unstyled">
+						<li>Premium: $320/mo</li>
+						<li>Deductible: $3000</li>
+						<li>Max Out-of-Pocket: $5000</li>
+					</ul>
+
+					<div class="panel-group">
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button general-details" href="#">
+					          General Details
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse general-details-collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Testing
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Dental and Vision
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          High Cost Services
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Maternity
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Medical Devices
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Emergency Care
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Prescription Drugs
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Habilitative and Rehabilitative Services
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Home Care and Hospice
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Facilities
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+
+				<div class="plan col-md-4">
+					<button type="button" class="close" aria-hidden="true">&times;</button>
+					<h2>Gold Plan</h2>
+					<h3>Kaiser Permanente</h3>
+
+					<ul class="list-unstyled">
+						<li>Premium: $600/mo</li>
+						<li>Deductible: $2000</li>
+						<li>Max Out-of-Pocket: $4000</li>
+					</ul>
+
+					<div class="panel-group">
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button general-details" href="#">
+					          General Details
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse general-details-collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Testing
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Dental and Vision
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          High Cost Services
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Maternity
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Medical Devices
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Emergency Care
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Prescription Drugs
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Habilitative and Rehabilitative Services
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Home Care and Hospice
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a class="collapse-button" href="#">
+					          Facilities
+					        </a>
+					      </h4>
+					    </div>
+					    <div class="panel-collapse collapse">
+					      <div class="panel-body">
+					        <table class="table table-bordered table-condensed">
+					        	<thead>
+					        		<tr>
+					        		<th></th>
+					        		<th>In Network</th>
+					        		<th>Out of Network</th>
+					        		</tr>
+					        	</thead>
+					        	<tr>
+					        		<td><strong>Combined Medical and Drug EHB Deductible</strong></td>
+					        		<td>$6350</td>
+					        		<td>N/A</td>
+					        	</tr>
+					        </table>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<button class="btn btn-primary btn-arrow-left">&larr;</button>
+				<button class="btn btn-primary btn-arrow-right">&rarr;</button>
+			</div>
+
+			<div class="footer row">
+				<div class="col-md-2">
+					<button type="button" class="btn btn-primary">Save</button>
+				</div>
+
+				<div class="col-md-3"></div>
+
+				<div class="col-md-2">
+					<button class="btn btn-default help">?</button>
+				</div>
+
+
+
+				<div class="col-md-2">
+					<button class="btn btn-default">Undo (X)</button>
+				</div>
+
+				<div class="col-md-3">
+					<a href="plans.html" class="btn btn-success">Purchase Plan &rarr;</a>
+				</div>
+			</div>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://code.jquery.com/jquery.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+
+	    <script>
+	    	
+
+	    	$(function() {
+	    		// $(".collapse-button").click(function(evt) {
+		    	// 	$(this).parents('.panel').find('.panel-collapse').toggle();
+
+		    	// 	evt.preventDefault();
+		    	// });
+
+		    	$(".general-details").click(function(evt) {
+		    		$('.general-details-collapse').toggle();
+
+		    		evt.preventDefault();
+		    	});
+
+			    $( "#slider-range1" ).slider({
+			      range: true,
+			      min: 200,
+			      max: 1000,
+			      values: [ 200, 350 ],
+			      slide: function( event, ui ) {
+			        $( "#amount1" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+			      }
+			    });
+			    $( "#amount1" ).val( "$" + $( "#slider-range1" ).slider( "values", 0 ) +
+			      " - $" + $( "#slider-range1" ).slider( "values", 1 ) );
+
+			    $( "#slider-range2" ).slider({
+			      range: true,
+			      min: 1000,
+			      max: 7000,
+			      values: [ 1000, 7000 ],
+			      slide: function( event, ui ) {
+			        $( "#amount2" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+			      }
+			    });
+			    $( "#amount2" ).val( "$" + $( "#slider-range2" ).slider( "values", 0 ) +
+			      " - $" + $( "#slider-range2" ).slider( "values", 1 ) );
+
+			    $( "#slider-range3" ).slider({
+			      range: true,
+			      min: 1000,
+			      max: 7000,
+			      values: [ 1000, 7000 ],
+			      slide: function( event, ui ) {
+			        $( "#amount3" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+			      }
+			    });
+			    $( "#amount3" ).val( "$" + $( "#slider-range3" ).slider( "values", 0 ) +
+			      " - $" + $( "#slider-range3" ).slider( "values", 1 ) );
+			});
+	    </script>
+	</body>
+</html>
