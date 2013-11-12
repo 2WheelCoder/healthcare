@@ -1062,6 +1062,10 @@
 		    		evt.preventDefault();
 		    	});
 
+		    	$('.close').click(function(evt) {
+		    		$(this).parent('.plan').remove();
+		    	});
+
 			    $( "#slider-range1" ).slider({
 			      range: true,
 			      min: 200,
