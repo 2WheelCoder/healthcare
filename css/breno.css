@@ -1,0 +1,64 @@
+/* line 1, ../sass/breno.scss */
+/* line 2, ../sass/breno.scss */
+.site-heading {
+  text-align: center;
+  font-size: 72px;
+  margin: 150px 0;
+}
+
+/* line 7, ../sass/breno.scss */
+/* line 9, ../sass/breno.scss */
+.step {
+  text-align: center;
+}
+
+/* line 11, ../sass/breno.scss */
+/* line 14, ../sass/breno.scss */
+.logo {
+  text-align: center;
+}
+
+/* line 18, ../sass/breno.scss */
+.new-element {
+  text-align: center;
+  font-size: 72px;
+  margin: 40px 0;
+}
+
+/* line 24, ../sass/breno.scss */
+.new-element p {
+  text-align: center;
+}
+
+/* line 28, ../sass/breno.scss */
+.btn .btn-default {
+  text-align: center;
+  background-color: #3498db;
+}
+
+/* line 33, ../sass/breno.scss */
+.more {
+  text-align: center;
+}
+
+/* line 37, ../sass/breno.scss */
+.start {
+  margin-top: 150px;
+  text-align: center;
+}
+
+/* line 42, ../sass/breno.scss */
+.btn .btn-default {
+  text-align: center;
+  background-color: #3498db;
+}
+
+/* line 48, ../sass/breno.scss */
+.information {
+  margin-top: 150px;
+}
+
+/* line 52, ../sass/breno.scss */
+.row {
+  margin: 100px 0;
+}
