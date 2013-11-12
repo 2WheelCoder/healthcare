@@ -59,7 +59,7 @@
 }
 
 /* line 52, ../sass/_breno.scss */
-.row {
+.home .row {
   margin: 100px 0;
 }
 
@@ -113,4 +113,15 @@
 /* line 42, ../sass/_nick.scss */
 .row {
   position: relative;
+}
+
+/* line 47, ../sass/_nick.scss */
+form h4 {
+  margin: 2em 0 0.8em;
+}
+
+/* line 52, ../sass/_nick.scss */
+.personal .footer {
+  border-top: 1px solid #000;
+  padding-top: 2em;
 }

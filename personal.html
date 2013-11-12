@@ -1,0 +1,158 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Healthcare.org Plans</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	</head>
+	<body class="personal">
+		<div class="container">
+			<div class="header row">
+				<div class="col-md-4">
+					<img src="img/logo.png" alt="Healthcare.org">
+				</div>
+
+				<div class="col-md-4"></div>
+
+				<div class="col-md-4">
+					<ol class="list-inline">
+						<li><h4 class="text-success">1. Personal &rarr;</h4></li>
+						<li><h4>2. Plans &rarr;</h4></li>
+						<li><h4>3. Purchase</h4></li>
+					</ol>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"></div>
+
+				<div class="col-md-10">
+					<h2 class="text-center">To show plans suited to you please provide us with a few details.</h2>
+
+					<form action="">
+						<h4>I am seeking a plan for:</h4>
+						
+						<div class="radio">
+							<label>
+								<input type="radio">
+								a business
+							</label>
+						</div>
+
+						<div class="radio">
+							<label>
+								<input type="radio">
+								an individual
+							</label>
+						</div>
+
+						<div class="radio">
+							<label>
+								<input type="radio">
+								a family of <select name="" id=""><option value="2">2</option><option value="3">3</option></select> people
+							</label>
+						</div>
+
+						<h4>Date of Birth (month/year, ex. 12/1987)</h4>
+						<div class="form-group">
+							<input type="text" placeholder="mm/yyyy">
+						</div>
+
+						<h4>Tobacco User?</h4>
+						<div class="radio">
+							<input type="radio">Yes
+						</div>
+						<div class="radio">
+							<input type="radio">No
+						</div>
+
+						<h4>Zip Code</h4>
+						<div class="form-group">
+							<input type="text">
+						</div>
+					</form>
+				</div>
+
+				<div class="cold-md-1"></div>
+			</div>
+
+			<div class="footer row">
+				<div class="col-md-2">
+					<button type="button" class="btn btn-primary">Save</button>
+				</div>
+
+				<div class="col-md-3"></div>
+
+				<div class="col-md-2">
+					<button class="btn btn-default">?</button>
+				</div>
+
+
+
+				<div class="col-md-2">
+					<button class="btn btn-default">Undo (X)</button>
+				</div>
+
+				<div class="col-md-3">
+					<button class="btn btn-success">Purchase Plan &rarr;</button>
+				</div>
+			</div>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://code.jquery.com/jquery.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+
+	    <script>
+	    	
+
+	    	$(function() {
+	    		$(".collapse-button").click(function(evt) {
+		    		$(this).parents('.panel').find('.panel-collapse').toggle();
+
+		    		evt.preventDefault();
+		    	});
+
+			    $( "#slider-range1" ).slider({
+			      range: true,
+			      min: 200,
+			      max: 1000,
+			      values: [ 200, 350 ],
+			      slide: function( event, ui ) {
+			        $( "#amount1" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+			      }
+			    });
+			    $( "#amount1" ).val( "$" + $( "#slider-range1" ).slider( "values", 0 ) +
+			      " - $" + $( "#slider-range1" ).slider( "values", 1 ) );
+
+			    $( "#slider-range2" ).slider({
+			      range: true,
+			      min: 1000,
+			      max: 7000,
+			      values: [ 1000, 7000 ],
+			      slide: function( event, ui ) {
+			        $( "#amount2" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+			      }
+			    });
+			    $( "#amount2" ).val( "$" + $( "#slider-range2" ).slider( "values", 0 ) +
+			      " - $" + $( "#slider-range2" ).slider( "values", 1 ) );
+
+			    $( "#slider-range3" ).slider({
+			      range: true,
+			      min: 1000,
+			      max: 7000,
+			      values: [ 1000, 7000 ],
+			      slide: function( event, ui ) {
+			        $( "#amount3" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+			      }
+			    });
+			    $( "#amount3" ).val( "$" + $( "#slider-range3" ).slider( "values", 0 ) +
+			      " - $" + $( "#slider-range3" ).slider( "values", 1 ) );
+			});
+	    </script>
+	</body>
+</html>
