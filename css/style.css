@@ -63,6 +63,22 @@
   margin: 100px 0;
 }
 
+/* line 56, ../sass/_breno.scss */
+.review p {
+  font-size: 20px;
+}
+
+/* line 60, ../sass/_breno.scss */
+.conclusion h1 {
+  text-align: center;
+  margin: 200px 0;
+}
+
+/* line 65, ../sass/_breno.scss */
+.purchase {
+  text-align: center;
+}
+
 /* line 2, ../sass/_nick.scss */
 .container {
   border: 1px solid #000;
