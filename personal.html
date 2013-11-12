@@ -86,13 +86,11 @@
 				<div class="col-md-3"></div>
 
 				<div class="col-md-2">
-					<button class="btn btn-default">?</button>
 				</div>
 
 
 
 				<div class="col-md-2">
-					<button class="btn btn-default">Undo (X)</button>
 				</div>
 
 				<div class="col-md-3">
@@ -111,47 +109,7 @@
 	    	
 
 	    	$(function() {
-	    		$(".collapse-button").click(function(evt) {
-		    		$(this).parents('.panel').find('.panel-collapse').toggle();
-
-		    		evt.preventDefault();
-		    	});
-
-			    $( "#slider-range1" ).slider({
-			      range: true,
-			      min: 200,
-			      max: 1000,
-			      values: [ 200, 350 ],
-			      slide: function( event, ui ) {
-			        $( "#amount1" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-			      }
-			    });
-			    $( "#amount1" ).val( "$" + $( "#slider-range1" ).slider( "values", 0 ) +
-			      " - $" + $( "#slider-range1" ).slider( "values", 1 ) );
-
-			    $( "#slider-range2" ).slider({
-			      range: true,
-			      min: 1000,
-			      max: 7000,
-			      values: [ 1000, 7000 ],
-			      slide: function( event, ui ) {
-			        $( "#amount2" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-			      }
-			    });
-			    $( "#amount2" ).val( "$" + $( "#slider-range2" ).slider( "values", 0 ) +
-			      " - $" + $( "#slider-range2" ).slider( "values", 1 ) );
-
-			    $( "#slider-range3" ).slider({
-			      range: true,
-			      min: 1000,
-			      max: 7000,
-			      values: [ 1000, 7000 ],
-			      slide: function( event, ui ) {
-			        $( "#amount3" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-			      }
-			    });
-			    $( "#amount3" ).val( "$" + $( "#slider-range3" ).slider( "values", 0 ) +
-			      " - $" + $( "#slider-range3" ).slider( "values", 1 ) );
+	    		
 			});
 	    </script>
 	</body>
