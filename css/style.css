@@ -1,4 +1,69 @@
-/* line 2, ../sass/nick.scss */
+/* line 1, ../sass/breno.scss */
+/* line 2, ../sass/_breno.scss */
+.site-heading {
+  text-align: center;
+  font-size: 72px;
+  margin: 150px 0;
+}
+
+/* line 7, ../sass/breno.scss */
+/* line 9, ../sass/_breno.scss */
+.step {
+  text-align: center;
+}
+
+/* line 11, ../sass/breno.scss */
+/* line 14, ../sass/_breno.scss */
+.logo {
+  text-align: center;
+}
+
+/* line 18, ../sass/_breno.scss */
+.new-element {
+  text-align: center;
+  font-size: 72px;
+  margin: 40px 0;
+}
+
+/* line 24, ../sass/_breno.scss */
+.new-element p {
+  text-align: center;
+}
+
+/* line 28, ../sass/_breno.scss */
+.btn .btn-default {
+  text-align: center;
+  background-color: #3498db;
+}
+
+/* line 33, ../sass/_breno.scss */
+.more {
+  text-align: center;
+}
+
+/* line 37, ../sass/_breno.scss */
+.start {
+  margin-top: 150px;
+  text-align: center;
+}
+
+/* line 42, ../sass/_breno.scss */
+.btn .btn-default {
+  text-align: center;
+  background-color: #3498db;
+}
+
+/* line 48, ../sass/_breno.scss */
+.information {
+  margin-top: 150px;
+}
+
+/* line 52, ../sass/_breno.scss */
+.row {
+  margin: 100px 0;
+}
+
+/* line 2, ../sass/_nick.scss */
 .container {
   border: 1px solid #000;
   padding-bottom: 2em;
@@ -6,30 +71,30 @@
   margin: 2em auto;
 }
 
-/* line 9, ../sass/nick.scss */
+/* line 9, ../sass/_nick.scss */
 .header {
   border-bottom: 3px solid #bfbfbf;
   margin-bottom: 1em;
 }
 
-/* line 14, ../sass/nick.scss */
+/* line 14, ../sass/_nick.scss */
 .filter {
   font-size: 1.4em;
   margin-bottom: 1em;
 }
 
-/* line 19, ../sass/nick.scss */
+/* line 19, ../sass/_nick.scss */
 .plan {
   border: 1px solid #000;
 }
 
-/* line 23, ../sass/nick.scss */
+/* line 23, ../sass/_nick.scss */
 .footer {
   text-align: center;
   margin-top: 2em;
 }
 
-/* line 28, ../sass/nick.scss */
+/* line 28, ../sass/_nick.scss */
 .btn-arrow-left {
   font-size: 2em;
   left: -42px;
@@ -37,7 +102,7 @@
   top: 50%;
 }
 
-/* line 35, ../sass/nick.scss */
+/* line 35, ../sass/_nick.scss */
 .btn-arrow-right {
   font-size: 2em;
   right: -42px;
@@ -45,7 +110,7 @@
   top: 50%;
 }
 
-/* line 42, ../sass/nick.scss */
+/* line 42, ../sass/_nick.scss */
 .row {
   position: relative;
 }
